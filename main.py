@@ -1,5 +1,5 @@
 # Only Whole Numbers are allowed in the list
-# O(n) time complexity
+# O(n^2) time complexity
 
 def counter_sort(lst:list) -> list:
     counter=0
@@ -11,5 +11,3 @@ def counter_sort(lst:list) -> list:
         else:
             break
     return sorted_list
-
-print(counter_sort([1,4,2,3,5,6,8,7,9,10]))    
