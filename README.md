@@ -10,3 +10,10 @@ test_list=[3,2,5,2,3,6,99,72]
 print(counter-sort(test_list))
 ```
 ### Usage in Rust
+```rust
+fn main() {
+    let input_list = vec![4, 2, 1, 3];
+    let result = counter_sort(input_list);
+    println!("{:?}", result);
+}
+```
