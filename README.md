@@ -12,8 +12,8 @@ print(counter-sort(test_list))
 ### Usage in Rust
 ```rust
 fn main() {
-    let input_list = vec![4, 2, 1, 3];
-    let result = counter_sort(input_list);
+    let test_list = vec![3,2,5,2,3,6,99,72];
+    let result = counter_sort(test_list);
     println!("{:?}", result);
 }
 ```
