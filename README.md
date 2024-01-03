@@ -15,4 +15,4 @@ fn main() {
     let test_list = vec![3,2,5,2,3,6,99,72];
     let result = counter_sort(test_list);
     println!("{:?}", result);
-}```
+} ```
