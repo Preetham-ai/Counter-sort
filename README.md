@@ -3,12 +3,14 @@ This Algorithm uses iteration to sort elemnts in the array with a time complexit
 
 ## Setup
 ### Usage in Python
+
 ```python
 import {counter-sort} from '@Preetham-ai/counter-sort'
 
 test_list=[3,2,5,2,3,6,99,72]
 print(counter-sort(test_list))
 ```
+
 ### Usage in Rust
 ```rust
 fn main() {
