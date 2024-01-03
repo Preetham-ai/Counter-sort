@@ -11,3 +11,6 @@ def counter_sort(lst:list) -> list:
         else:
             break
     return sorted_list
+
+if __name__ == "__main__":
+    main()
