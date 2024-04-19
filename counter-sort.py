@@ -4,13 +4,11 @@
 def counter_sort(lst:list) -> list:
     counter=0
     sorted_list=[]
-    while len(sorted_list)<=len(lst):
+    while len(sorted_list)<len(lst):
         counter+=1
         if counter in lst:
             sorted_list.append(counter)
-        else:
-            break
     return sorted_list
 
 if __name__ == "__main__":
-    main()
+    counter_sort()
