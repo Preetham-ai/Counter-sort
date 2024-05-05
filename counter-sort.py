@@ -9,6 +9,3 @@ def counter_sort(lst:list) -> list:
         if counter in lst:
             sorted_list.append(counter)
     return sorted_list
-
-if __name__ == "__main__":
-    counter_sort()
